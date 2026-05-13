@@ -41,7 +41,7 @@ fs.readdirSync(ROUTES_FOLDER)
             file.replace('.js', '');
 
         app.use(`/${endpoint}`,require(path.join(ROUTES_FOLDER, file)));
-        /*console.log(` /${endpoint}`);*/
+        console.log(` /${endpoint}`);
     });
 
 app.listen(PORT, () => {
