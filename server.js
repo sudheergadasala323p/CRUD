@@ -45,5 +45,5 @@ fs.readdirSync(ROUTES_FOLDER)
     });
 
 app.listen(PORT, () => {
-    console.log(`Server Running on - ${PORT}`);
+    console.log(`Server Running on -- ${PORT}`);
 });
